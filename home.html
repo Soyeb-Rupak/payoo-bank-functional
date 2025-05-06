@@ -22,14 +22,14 @@
 </div>
 <div class="divider"></div>
 <div class="flex justify-center p-4 gap-2 bg-slate-400 rounded-lg ">
-    <button class="btn btn-primary">Primary</button>
-    <button class="btn btn-secondary">Secondary</button>
-    <button class="btn btn-accent">Accent</button>
+    <button id="btnDeposit" class="btn btn-primary">Deposit</button>
+    <button id="btnCashOut" class="btn btn-secondary">Cash-Out</button>
+    <button id="btnTransaction" class="btn btn-accent">Transaction</button>
 </div>
 <div class="divider"></div>
 
         <!-- Add-Money- starts------------- -->
-                <div id="deposit-sec" class="card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+                <div id="deposit-sec" class="  card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
                     <div class="card-body bg-slate-50">
                       <fieldset class="fieldset">
                         <label class="label text-bold">Deposit Amount</label>
@@ -44,7 +44,7 @@
 
         
         <!-- Cash-Out- starts------------- -->
-        <div id="Cash-out-section" class=" hidden card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+        <div id="Cash-out-section" class="  hidden card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
             <div class="card-body bg-slate-50">
               <fieldset class="fieldset">
                 <label class="label text-bold">Cash-Out Amount</label>
@@ -58,7 +58,7 @@
 <!-------------------- -Cash-Out end----------------------- -->
 
 <!-- ------------------Transaction Section Starts---------------------- -->
-<div id="transaction-sec"class=" mt-5 bg-orange-200">
+<div id="transaction-sec"class="  hidden mt-5 bg-orange-200">
     <h2 class="text-3xl text-center font-bold">Transaction History</h2>
 
 </div>
@@ -66,6 +66,8 @@
             </div>
           </div>
     </main>
+    <script src="./js/features.js"></script>
+    <script src="./js/cashOut.js"></script>
     <script src="./js/deposit.js"></script>
     <script src="./js/utilities.js"></script>
     <script src="./js/login.js"></script>

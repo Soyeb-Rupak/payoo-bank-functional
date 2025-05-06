@@ -21,5 +21,13 @@ const fieldClear=(id)=>{
 
     // or-------
     document.getElementById(id).value=''
+}
+
+// --hide section--------------------
+const hideSection= (id)=>{
+    document.getElementById('deposit-sec').classList.add('hidden')
+    document.getElementById('Cash-out-section').classList.add('hidden')
+    document.getElementById('transaction-sec').classList.add('hidden')
+document.getElementById(id).classList.remove('hidden')
 
 }
