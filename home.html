@@ -28,19 +28,41 @@
 </div>
 <div class="divider"></div>
 
-                <!-- login- starts------------- -->
-                <div class="card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+        <!-- Add-Money- starts------------- -->
+                <div id="deposit-sec" class="card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
                     <div class="card-body bg-slate-50">
                       <fieldset class="fieldset">
                         <label class="label text-bold">Deposit Amount</label>
-                        <input id="inputAmount" type="email" class="input" placeholder="Enter Your Amount" />
+                        <input id="inputDepositAmount" type="email" class="input" placeholder="Enter Your Amount" />
                         <label class="label">Pin</label>
                         <input id="inputDepositPin" type="password" class="input" placeholder="Enter Pin" />
                         <button id="depositBtn" class="btn btn-neutral mt-4 text-bold text-2xl">Deposit</button>
                       </fieldset>
                     </div>
                   </div>
-                  <!-------------------- -login end----------------------- -->
+        <!-------------------- -Add-Money end----------------------- -->
+
+        
+        <!-- Cash-Out- starts------------- -->
+        <div id="Cash-out-section" class=" hidden card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+            <div class="card-body bg-slate-50">
+              <fieldset class="fieldset">
+                <label class="label text-bold">Cash-Out Amount</label>
+                <input id="inputCashOutAmount" type="email" class="input" placeholder="Enter Your Amount" />
+                <label class="label">Pin</label>
+                <input id="inputCashOutPin" type="password" class="input" placeholder="Enter Pin" />
+                <button id="cashOutBtn" class="btn btn-neutral mt-4 text-bold text-2xl">Withdraw</button>
+              </fieldset>
+            </div>
+          </div>
+<!-------------------- -Cash-Out end----------------------- -->
+
+<!-- ------------------Transaction Section Starts---------------------- -->
+<div id="transaction-sec"class=" mt-5 bg-orange-200">
+    <h2 class="text-3xl text-center font-bold">Transaction History</h2>
+
+</div>
+<!-- ------------------Transaction Section end---------------------- -->
             </div>
           </div>
     </main>
