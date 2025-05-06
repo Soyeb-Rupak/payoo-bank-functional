@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone border-primary bg-slate-50">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display">
+<div class="mt-20">
+    <h1 class="text-5xl text-center text-orange-500 font-bold">Login now!</h1>
+</div>
+
+                <!-- login- starts------------- -->
+                <div class="card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body bg-slate-50">
+                      <fieldset class="fieldset">
+                        <label class="label text-bold">Account Number</label>
+                        <input id="inputAccount" type="email" class="input" placeholder="Enter Account No" />
+                        <label class="label">Pin</label>
+                        <input id="inputPin" type="password" class="input" placeholder="Enter Pin" />
+                        <div><a class="link link-hover">Forgot password?</a></div>
+                        <button id="loginBtn" class="btn btn-neutral mt-4">Login</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <!-------------------- -login end----------------------- -->
+            </div>
+          </div>
+    </main>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

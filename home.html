@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone border-primary bg-slate-50">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display">
+<div class="mt-20 flex justify-center">
+    <div class="stats shadow bg-orange-400">
+        <div class="stat ">
+          <div class="stat-title text-white ">Account Balance</div>
+          <div class="stat-value text-white">89400</div>
+        </div>
+      </div>
+</div>
+<div class="divider"></div>
+<div class="flex justify-center p-4 gap-2 bg-slate-400 rounded-lg ">
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-accent">Accent</button>
+</div>
+<div class="divider"></div>
+
+                <!-- login- starts------------- -->
+                <div class="card mt-10 bg-blue-50 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body bg-slate-50">
+                      <fieldset class="fieldset">
+                        <label class="label text-bold">Deposit Amount</label>
+                        <input id="inputAmount" type="email" class="input" placeholder="Enter Your Amount" />
+                        <label class="label">Pin</label>
+                        <input id="inputDepositPin" type="password" class="input" placeholder="Enter Pin" />
+                        <button id="depositBtn" class="btn btn-neutral mt-4 text-bold text-2xl">Deposit</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <!-------------------- -login end----------------------- -->
+            </div>
+          </div>
+    </main>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
